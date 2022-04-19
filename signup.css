@@ -5,75 +5,70 @@
    
 }
 body{
-    background-image: linear-gradient(to left,  #da9cba, #f1ce82 )
+    background-image: linear-gradient(to left,  #da9cba, #f1ce82 );
+    display: grid;
 }
 
 .left-box{
     background-color: rgb(240, 207, 145);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    padding-left: 40px;
-    position: fixed;
-    margin-left: 9%;
-    margin-top: 10%;
     height: 500px;
-  
+    width: 210px;
+    margin-left: 15%;
+    margin-top: 0%;
+    position: fixed;
 
     
-}
-.membersip{
+  
+   
+ }
+ .membersip{
     float: left;
     padding-left: 200%;
-}
-img{
-    
+    margin-bottom: 20px;
+ }
+ img{
+  
     width: 350px;
     height: 300px;
-}
+ }
   h5 {
     margin-left: 5%;
     color: #695d15;
     background: none;
-    cursor: pointer; 
+    cursor: pointer;
     font-size: medium;
-
-   
-    
-}
-.left-box p{
+  }
+  .left-box p{
     color: #695d15;
     font-size: 20px;
     background: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-left: 5%;
-  
-  }
+   }
   img{
     margin-right: 0;
     width: 250px;
     height: 300px;
-    
+   
  }
- 
-  .p-bottom{
+ .right-box{
 
-  }
-
-.right-box{
     height: 495px;
-    width: 650px;
+    width: 640px;
     margin-left: 31%;
     margin-top: 10%;
-    background: white;
-    border-radius: 0;
-    position: fixed;
     border: solid white;
-}
-.right-container{
-    margin-left: 150px;
-}
+    background-color: white;
+ }
 
-.signup{
+
+ .right-container{
+    margin-left: 150px;
+    
+
+ }
+  
+ .signup{
     background-color: #153be2;
     padding:-1px;
     border-radius: 1px;
@@ -81,85 +76,86 @@ img{
     width: 48%;
     color: white;
     border: none;
-}
-.face{
+ }
+ .face{
     margin-left: 10px;
-   
-padding: 5px 7px 5px 7px;
-color: #767676;
-
-}
-.twitter{
+  
+ padding: 5px 7px 5px 7px;
+ color: #767676;
+  
+ }
+ .twitter{
     padding: 5px;
     margin-left: 10px;
-   
-}
-.twitter a{
+  
+ }
+ .twitter a{
     text-decoration: none;
     color: #767676;
-}
-.face a{
+ }
+ .face a{
     text-decoration: none;
     color: #767676;
-}
-.or{
+ }
+ .or{
     margin-top: 3%;
-}
-.one input {
+ }
+ .one input {
     border-radius: 6px ;
     border: none;
+ 
     padding: 6px;
     background-color: #f5f6f7;
-}
-.two input{
+ }
+ .two input{
     border: none ;
     background-color: #f5f6f7;
     padding: 6px;
     border-radius: 6px;
+  }
+ .two{
+ margin-left: 45%;
+ margin-top: -9%;
   
-}
-.two{
-margin-left: 33%;
-margin-top: -6.5%;
-
-}
-.three{ 
+ }
+ .three{
      margin-bottom: 5%;
-}
-.three input{
+ }
+ .three input{
     border: none ;
     background-color: #f5f6f7;
     padding: 6px;
-    border-radius: 6px; 
-width: 60%;
-}
-.four{
+    border-radius: 6px;
+ width: 60%;
+ }
+ .four{
     margin-bottom: 3%;
 }
 .four input{
-    border: none ;
-    background-color: #f5f6f7;
-    padding: 6px;
-    border-radius: 6px;  
-    width: 60%;
+   border: none ;
+   background-color: #f5f6f7;
+   padding: 6px;
+   border-radius: 6px; 
+   width: 60%;
 }
 .checkbox{
-    margin-bottom: 1%;
+   margin-bottom: 1%;
 }
 .checkbox a{
-    text-decoration: none;
+   text-decoration: none;
 }
 .bottom-button{
-    margin-top: 5%;
-    background-color: #eb4b8a;
-    color: white;
-    width: 200px;
-    height: 40px;
-    border: none;
-    border-radius: 6px;
-    font-size: large;
-    margin-bottom: 10%;
+   margin-top: 5%;
+   background-color: #eb4b8a;
+   color: white;
+   width: 200px;
+   height: 40px;
+   border: none;
+   border-radius: 6px;
+   font-size: large;
+   margin-bottom: 10%;
 }
 .bottom{
-
 }
+    
+   
