@@ -5,32 +5,40 @@
 }
 body{
     background-image: linear-gradient(to left,  #da9cba, #f1ce82 ) ;
+    display: grid;
 }
 .mid-body{
-    margin: 30px;
-    margin-bottom: 20px;
+    background-color: white;
+    max-width: 80%;
+    border-radius: 10px;
+    margin: 50px 20px 0px 120px;
 }
 .left-box{
-    height: 500px;
-    width: 22%;
-    margin-left: 7%;
-    background:#f0cf89;
-    position: fixed;  
-    margin-bottom: 1000%;
+    background-color: rgb(240, 207, 145);
+    max-width: 38%; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 40px;
+    position: fixed;
+    margin-left: 8%;
     
-    
+}
+.membersip{
+    float: left;
+    padding-left: 200%;
 }
 img{
     
-
+    width: 350px;
+    height: 300px;
 }
   h5 {
     margin-left: 5%;
     color: #695d15;
     background: none;
-    font-family: pacifico;
     margin-bottom: 50px;
     cursor: pointer; 
+    font-size: medium;
 
    
     
@@ -40,7 +48,7 @@ img{
     font-size: 20px;
     background: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 5%;
+    margin-left: 20%;
   
   }
   img{
@@ -56,12 +64,14 @@ img{
   }
 
 .right-box{
-    height: 500px;
+    height: 1000px;
     width: 650px;
     margin-left: 31%;
     margin-top: 8%;
     background: white;
     border-radius: 0;
+    position: fixed;
+    margin-bottom: 100%;
 }
 .right-container{
     margin-left: 150px;

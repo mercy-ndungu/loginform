@@ -1,25 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     
-    background: linear-gradient(90deg, rgb(247, 211, 194) 0%, rgb(233, 158, 115) 35%, rgb(240, 164, 223) 100%);
+    background: linear-gradient(to left,  #da9cba, #f1ce82 ) ;
     display: grid;
 
-}
-form{
-    background-color: white;
-    max-width: 80%;
-    border-radius: 10px;
-    margin: 50px 20px 0px 120px;
-
-    
-    
 }
 section{
     float: left;
 
 }
-.description{
+form{
+    margin: 50px 20px 0px 120px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 80%;
+    
+
+    
+    
+}
+
+.left-box{
     background-color: rgb(240, 207, 145);
-    max-width: 35%; 
+    max-width: 38%; 
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     padding-left: 40px;
@@ -47,25 +53,25 @@ img{
     text-align: right;
     margin-left: 250px;
 }
-.links a{
+.bottom a{
     text-decoration: none;
-    color: rgb(87, 125, 228);
+    color: #153be2;
     
 }
 
-.google-icon {
-    background-color:rgb(20, 118, 184) ;
+.icon1 {
+    background-color: #153be2; ;
     border: thistle;
     width: 262px;
     height: 30px;
     border-radius: 5px;
 }
-.google-icon a{
+.icon1 a{
     color: white;
     text-decoration: none;
     font-size: 15px;
 }
-.icon{
+.icons{
     border: thistle;
     background-color: rgb(224, 221, 221);
     width: 50px;
@@ -76,9 +82,7 @@ img{
     text-decoration: none;
     color: grey;
 }
-.line{
-    display: flex;
-}
+
 hr{
 width: 170px;
     
@@ -90,25 +94,26 @@ width: 170px;
     width: 175px;
     height: 25px;
 }
-.other-details input{
+.details input{
+    width: 370px;
+    height: 25px;
     border-radius: 5px;
     border: thistle;
     background-color: rgb(224, 221, 221);
-    width: 370px;
-    height: 25px;
+    
 }
-#agreement{
+.chexbox{
     max-width: 400px;
     font-size: small;
 }
 .create-account{
-    background-color: rgb(221, 120, 204);
-    border: white;
     width: 150px;
     height: 30px;
+    background-color: #eb4b8a;
+    border: white;
     color: white;
 }
-#protection{
+#finish{
     font-size: smaller;
     padding-top: 100px;
     max-width:300px ;
