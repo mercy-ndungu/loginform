@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to left,  #da9cba, #f1ce82 ) ;
+}
+.mid-body{
+    margin: 30px;
+    margin-bottom: 20px;
+}
+.left-box{
+    height: 500px;
+    width: 22%;
+    margin-left: 7%;
+    background:#f0cf89;
+    position: fixed;  
+    margin-bottom: 1000%;
+    
+    
+}
+  h5 {
+    margin-left: 5%;
+    color: #695d15;
+    background: none;
+    font-family: pacifico;
+    margin-bottom: 50px;
+    cursor: pointer; 
+    margin-left: 5%;
+   
+    
+}
+.left-box p{
+    color: #695d15;
+    font-size: 20px;
+    background: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 5%;
+  
+  }
+  img{
+    margin-right: 0;
+    margin-top: 35%;
+    width: 250px;
+    height: 300px;
+    
+ }
+ 
+  .p-bottom{
+
+  }
+
+.right-box{
+    height: 500px;
+    width: 650px;
+    margin-left: 31%;
+    margin-top: 8%;
+    background: white;
+    border-radius: 0;
+}
+.right-container{
+    margin-left: 150px;
+}
+
+.signup{
+    background-color: #153be2;
+    padding:-1px;
+    border-radius: 1px;
+    height: 30px;
+    width: 48%;
+    color: white;
+    border: none;
+}
+.face{
+    margin-left: 10px;
+   
+padding: 5px 7px 5px 7px;
+color: #767676;
+
+}
+.twitter{
+    padding: 5px;
+    margin-left: 10px;
+   
+}
+.twitter a{
+    text-decoration: none;
+    color: #767676;
+}
+.face a{
+    text-decoration: none;
+    color: #767676;
+}
+.or{
+    margin-top: 3%;
+}
+.one input {
+    border-radius: 6px ;
+    border: none;
+    padding: 6px;
+    background-color: #f5f6f7;
+}
+.two input{
+    border: none ;
+    background-color: #f5f6f7;
+    padding: 6px;
+    border-radius: 6px;
+  
+}
+.two{
+margin-left: 33%;
+margin-top: -6.5%;
+
+}
+.three{ 
+     margin-bottom: 5%;
+}
+.three input{
+    border: none ;
+    background-color: #f5f6f7;
+    padding: 6px;
+    border-radius: 6px; 
+width: 60%;
+}
+.four{
+    margin-bottom: 3%;
+}
+.four input{
+    border: none ;
+    background-color: #f5f6f7;
+    padding: 6px;
+    border-radius: 6px;  
+    width: 60%;
+}
+.checkbox{
+    margin-bottom: 1%;
+}
+.checkbox a{
+    text-decoration: none;
+}
+.bottom-button{
+    margin-top: 5%;
+    background-color: #eb4b8a;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    font-size: large;
+    margin-bottom: 10%;
+}
+.bottom{
+
+}
