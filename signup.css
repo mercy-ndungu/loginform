@@ -20,6 +20,10 @@ body{
     
     
 }
+img{
+    
+
+}
   h5 {
     margin-left: 5%;
     color: #695d15;
@@ -27,7 +31,7 @@ body{
     font-family: pacifico;
     margin-bottom: 50px;
     cursor: pointer; 
-    margin-left: 5%;
+
    
     
 }

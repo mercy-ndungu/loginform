@@ -1,78 +1,116 @@
-i{
-    margin-right: 20px;
-}
-p{
-    top: 20%;
-    margin: 5px 5px 0px 0px; 
-    left: 35px; 
-    text-align: right;
+body{
+    
+    background: linear-gradient(90deg, rgb(247, 211, 194) 0%, rgb(233, 158, 115) 35%, rgb(240, 164, 223) 100%);
+    display: grid;
 
 }
-p .active{
+form{
+    background-color: white;
+    max-width: 80%;
+    border-radius: 10px;
+    margin: 50px 20px 0px 120px;
+
+    
+    
+}
+section{
+    float: left;
+
+}
+.description{
+    background-color: rgb(240, 207, 145);
+    max-width: 35%; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 40px;
+}
+h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: rgb(139, 93, 6);
+}
+
+h1{
+    max-width: 60%;
+    color: rgb(139, 93, 6);
+    
+}
+img{
+    width: 350px;
+    height: 300px;
+}
+
+.form{
+  padding: 5px 0px 0px 125px ;
+}
+#user-status{
+    text-align: right;
+    margin-left: 250px;
+}
+.links a{
     text-decoration: none;
+    color: rgb(87, 125, 228);
     
 }
 
-ul a{
-    color: rgb(91, 171, 245);
-    position: relative;
-    left: -10%;
-    top: 35px;
-    font-size: 18px;
-
+.google-icon {
+    background-color:rgb(20, 118, 184) ;
+    border: thistle;
+    width: 262px;
+    height: 30px;
+    border-radius: 5px;
 }
-
-
-
-
-
-.right-box  h3{
-    text-align: center;
-    font-size: 20px;
-    margin: 9px 0;
-  }
- .form2 h6{ border: 3px solid #f1f1f1;
-  margin-top: 10px;
-  margin-left: 75%;
+.google-icon a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
 }
-h1{
-    margin-top: 2%;
-
+.icon{
+    border: thistle;
+    background-color: rgb(224, 221, 221);
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
 }
-
-
-.btn{
-    font-size: 18px;
-    font-weight: bold;
-    margin: 15px 0;
-    padding: 3px 10px;
-   width: 150px;
-    border-radius: 6px;
-    background-color: #0829bd;
- } 
- .six{
-    font-size: 18px;
-    font-weight: bold;
-    margin: 15px 0;
+.icon a{
+    text-decoration: none;
+    color: grey;
+}
+.line{
+    display: flex;
+}
+hr{
+width: 170px;
+    
+}
+.name input{
+    border-radius: 5px;
+    border: thistle;
+    background-color: rgb(224, 221, 221);
+    width: 175px;
+    height: 25px;
+}
+.other-details input{
+    border-radius: 5px;
+    border: thistle;
+    background-color: rgb(224, 221, 221);
+    width: 370px;
+    height: 25px;
+}
+#agreement{
+    max-width: 400px;
+    font-size: small;
+}
+.create-account{
+    background-color: rgb(221, 120, 204);
+    border: white;
     width: 150px;
-    border-radius: 6px;
-    background-color: #e026a2;
- } 
-
-.seven{
-    margin-left: 30%;
-    margin-bottom: 3%; 
+    height: 30px;
+    color: white;
 }
-.eight{
-    margin-left: 30%;
-    margin-bottom: 3%;
+#protection{
+    font-size: smaller;
+    padding-top: 100px;
+    max-width:300px ;
+    
 }
-
-
-.btn3{
-    margin-left: 30%;
-    margin-top: 10%;
-    background-color: #f568c6;
-    width: 120px;
-    height: 20px;
- }
